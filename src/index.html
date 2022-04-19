@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="description" content="This is a solution to the NFT preview card component challenge on Frontend Mentor.">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | NFT preview card component</title>
@@ -21,8 +21,8 @@
         aria-labelledby="nft-card-title" 
         aria-describedby="nft-card-description"
         >
-        <figure id="illustration">
-          <a href="#1">
+        <figure id="illustration" role="none">
+          <a href="#1" role="button">
             <img 
               id="icon-view"
               alt="Icon View"
@@ -37,7 +37,7 @@
         </figure>
         
         <h1 id="nft-card-title">
-          <a href="#2">
+          <a href="#2" role="button">
             Equilibrium #3429
           </a>
         </h1>
@@ -64,7 +64,7 @@
           <img class="avatar" alt="Image Avatar" src="images/image-avatar.png">
           <p class="text">
             Creation of 
-            <a href="#3">Jules Wyvern</a>
+            <a href="#3" role="button">Jules Wyvern</a>
           </p>
         </div>
       </article>
