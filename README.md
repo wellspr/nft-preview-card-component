@@ -78,6 +78,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
+
+-[https://stackoverflow.com/questions/8508275/how-to-center-a-position-absolute-element](https://stackoverflow.com/questions/8508275/how-to-center-a-position-absolute-element)
+This is a good resorce to help centering an absolute positioned image.
+
 -[https://stackoverflow.com/a/6910112](https://stackoverflow.com/a/6910112) I didn't know how to hover one element and change another, so this link was really handful for this answer.
 
 

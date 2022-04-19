@@ -48,32 +48,30 @@ article#nft-card-inner {
     border-radius: 15px;
 }
 
-/* article figure#figure {} */
-
-article figure {
+figure#illustration {
     position: relative;
     background-color: var(--cyan);
     border-radius: 12px;
+    cursor: pointer;
     width: 282px;
     height: 282px;
 }
 
-article figure img#card-illustration {
+figure img#card-illustration {
     position: relative;
     width: 100%;
     border-radius: 10px;
-    cursor: pointer;
     z-index: 1000;
     transition: all 0.1s;
 }
 
-article figure:hover img#card-illustration {
+figure#illustration:hover img#card-illustration {
     z-index: 0;
     opacity: 0.5;
     transition: all 0.1s;
 }
 
-article figure img#icon-view {
+img#icon-view {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -88,40 +86,44 @@ article figure img#icon-view {
 }
 
 article h1#nft-card-title {
-    color: var(--white);
     margin: 1rem 0;
     font-size: 1.4rem;
     cursor: pointer;
 }
 
-article h1#nft-card-title:hover {
+#nft-card-title a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+#nft-card-title a:hover {
     color: var(--cyan);
 }
 
-article p {
+article p#nft-card-description {
     color: var(--soft_blue);
     font-weight: 300;
     font-size: 1rem;
     line-height: 1.5;
 }
 
-article .details {
+article ul.details {
     display: flex;
     justify-content: space-between;
     list-style: none;
     margin: 1rem 0 0.75rem;
 }
 
-article .details .price {
+li.price {
     color: var(--cyan);
     font-weight: 600;
 }
 
-article .details .time {
+li.time {
     color: var(--soft_blue);
 }
 
-article .line {
+article hr.line {
     color: var(--very_dark_blue_line);
 }
 
@@ -132,21 +134,20 @@ article .credits {
     margin: 1.2rem 0 0;
 }
 
-article .avatar {
+img.avatar {
     width: 2rem;
     margin-right: 1rem;
     border: 1px var(--white) solid;
     border-radius: 50%;
 }
 
-/* article .text {} */
-
-article .name {
+.credits a {
     color: var(--white);
+    text-decoration: none;
     cursor: pointer;
 }
 
-.name:hover {
+.credits a:hover {
     color: var(--cyan);
 }
 

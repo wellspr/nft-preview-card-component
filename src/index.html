@@ -21,22 +21,28 @@
         aria-labelledby="nft-card-title" 
         aria-describedby="nft-card-description"
         >
-        <figure id="figure" role="none">
-          <img 
-            id="icon-view"
-            alt="Icon View"
-            src="images/icon-view.svg"
-          >
-          <img 
-            id="card-illustration"
-            alt="card-illustration" 
-            src="images/image-equilibrium.jpg"
-          >
+        <figure id="illustration">
+          <a href="#1">
+            <img 
+              id="icon-view"
+              alt="Icon View"
+              src="images/icon-view.svg"
+            >
+            <img 
+              id="card-illustration"
+              alt="card-illustration" 
+              src="images/image-equilibrium.jpg"
+            >
+          </a>
         </figure>
+        
+        <h1 id="nft-card-title">
+          <a href="#2">
+            Equilibrium #3429
+          </a>
+        </h1>
 
-        <h1 id="nft-card-title">Equilibrium #3429</h1>
-
-        <p id="nft-card-description" class="description">
+        <p id="nft-card-description">
           Our Equilibrium collection promotes 
           balance and calm.
         </p>
@@ -55,11 +61,11 @@
         <hr class="line">
 
         <div class="credits" role="contentinfo">
-          <img class="avatar" alt="" src="images/image-avatar.png">
-          <span class="text">
+          <img class="avatar" alt="Image Avatar" src="images/image-avatar.png">
+          <p class="text">
             Creation of 
-            <span class="name">Jules Wyvern</span>
-          </span>
+            <a href="#3">Jules Wyvern</a>
+          </p>
         </div>
       </article>
     </section>
@@ -71,6 +77,7 @@
       <a 
         href="https://www.frontendmentor.io?ref=challenge" 
         target="_blank"
+        aria-label="Link to this challenge - opens in a new tab"
         >
         Frontend Mentor
       </a>. 
