@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-component-solution-using-html-and-css-with-flexbox-BkDtLM3Nq](https://www.frontendmentor.io/solutions/nft-preview-card-component-solution-using-html-and-css-with-flexbox-BkDtLM3Nq)
 - Live Site URL: [https://nft-preview-card-component-wellspr.vercel.app/](https://nft-preview-card-component-wellspr.vercel.app/)
 
 ## My process

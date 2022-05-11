@@ -27,6 +27,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
 }
 
 main {
@@ -42,8 +43,10 @@ section#nft-card-main {
     flex-direction: column;
     background-color: var(--very_dark_blue_card);
     width: 330px;
-    padding: 1.5rem;
+    padding: 24px;
     border-radius: 15px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 figure#illustration {
@@ -51,8 +54,8 @@ figure#illustration {
     background-color: var(--cyan);
     border-radius: 12px;
     cursor: pointer;
-    width: 282px;
-    height: 282px;
+    width: 278px;
+    height: 278px;
 }
 
 figure img#card-illustration {
@@ -84,7 +87,8 @@ img#icon-view {
 }
 
 section h1#nft-card-title {
-    margin: 1rem 0;
+    margin-top: 25px;
+    margin-bottom: 12px;
     font-size: 1.4rem;
     cursor: pointer;
 }
@@ -102,7 +106,7 @@ section p#nft-card-description {
     color: var(--soft_blue);
     font-weight: 300;
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 section ul.details {
@@ -110,6 +114,17 @@ section ul.details {
     justify-content: space-between;
     list-style: none;
     margin: 1rem 0 0.75rem;
+}
+
+li.price, li.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+li.price img, li.time img {
+    margin-right: 10px;
 }
 
 li.price {
@@ -140,7 +155,7 @@ img.card-credits-avatar {
 }
 
 p.card-credits-text {
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -154,5 +169,11 @@ p.card-credits-text {
     color: var(--cyan);
 }
 
-footer .attribution { font-size: 11px; text-align: center; }
-footer .attribution a { color: hsl(228, 45%, 44%); }
+footer#main-footer { 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+footer#main-footer .attribution { font-size: 11px; text-align: center; }
+footer#main-footer .attribution a { color: hsl(228, 45%, 44%); }
