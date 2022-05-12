@@ -16,6 +16,8 @@
 --very_dark_blue_card: hsl(216, 50%, 16%); /* (card BG) */
 --very_dark_blue_line: hsl(215, 32%, 27%); /* (line) */
 --white: hsl(0, 0%, 100%);
+
+--shadow-strong: rgba(12, 23, 41);
 }
 
 body {
@@ -47,6 +49,13 @@ section#nft-card-main {
     border-radius: 15px;
     margin-top: 60px;
     margin-bottom: 60px;
+    box-shadow: 
+        10px 0px 10px 10px var(--shadow-strong),
+        -10px 0px 10px 10px var(--shadow-strong),
+        10px 40px 10px 10px var(--shadow-strong),
+        -10px 40px 10px 10px var(--shadow-strong),
+        10px -20px 10px 10px var(--shadow-strong),
+        -10px -20px 10px 10px var(--shadow-strong);
 }
 
 figure#illustration {
@@ -56,6 +65,7 @@ figure#illustration {
     cursor: pointer;
     width: 278px;
     height: 278px;
+    margin: auto;
 }
 
 figure img#card-illustration {

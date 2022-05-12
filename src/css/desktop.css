@@ -1,0 +1,26 @@
+@media screen and (min-width: 1024px) {
+    section#nft-card-main {
+        width: 350px;
+        padding-bottom: 30px;
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+
+    figure#illustration {
+        width: 300px;
+        height: 300px;
+    }
+
+    section h1#nft-card-title {
+        margin-bottom: 15px;
+    }
+
+    section p#nft-card-description {
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
+
+    section ul.details {
+        margin: 1.4rem 0;
+    }
+}
